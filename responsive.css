@@ -1,0 +1,150 @@
+@media screen and (max-width: 1600px) {
+.container {
+	width:1400px;
+	padding-left: 0;
+	padding-right: 0;
+}
+}
+@media screen and (max-width: 1420px) {
+.container {
+	width:1390px;
+}
+}
+@media screen and (max-width: 1320px) {
+.container {
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.promo-text h2 { font-size:16px;}
+.promo-text span { font-size:14px;}
+}
+@media screen and (max-width: 1200px) {
+.slider {
+	padding-top: 100%;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 100%;
+}
+.slider label {
+	width: 90px;
+	height: 75px;
+	margin: 10px 5px 0 0;
+}
+.slider label img {
+	max-height: 60px;
+	max-width: 90%;
+}
+.tabs .tab { font-size:15px;}
+.tabs label { font-size:18px;}
+.section { font-size:12px;}
+.promo-text { clear:both;}
+.promo img{ margin-bottom:10px;}
+.margintb32 { margin-top:10px; margin-bottom:16px;}
+}
+
+@media screen and (max-width: 991px) {
+.slider {
+	padding-top: 100%;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 100%;
+}
+.slider label {
+	width: 80px;
+	height: 70px;
+	margin-right: 6px;
+}
+.slider #id1 + label {
+	margin-left: 2%;
+}
+.slider label img {
+	max-width: 90%;
+	max-height: 60px;
+}
+.gal-container {
+	height: auto;
+}
+.tabs label { font-size:0; text-align:center;}
+.hidden-sm { display:none;}
+.galleryanddesc { margin-top:15px;}
+.promo2 { background-position:left top;}
+}
+
+@media screen and (max-width: 767px) {
+body {
+	font-size: 14px;
+}
+img {
+	width: auto;
+	max-width: 100%;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.gal-container {
+	margin-bottom: 0px;
+	height: auto;
+	overflow: hidden;
+	padding: 0 0 15px 0;
+}
+.slider {
+	width: 100%;
+	padding-top: 80%;
+}
+.slider>img {
+	width: auto;
+	height: auto;
+	max-height: 230px;
+	max-width: 100%;
+	text-align: center;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 350px;
+}
+.slider input#id1 + label {
+	margin-left: 5px;
+}
+.slider label {
+	margin: 10px 5px 0;
+	width: 70px;
+	height: 70px;
+}
+.slider label img {
+	max-width: 90%;
+	max-height: 60px;
+}
+.slider label img {
+	max-width: 90%;
+}
+.logo { text-align:center;}
+.header { height:65px;}
+.tabs label { font-size:20px; text-align:center; text-indent:inherit;}
+.tabs label img { display:none;}
+.tabs input[type="radio"]:checked + label { background-image:none;}
+.hidden-sm { display:none;}
+}
+@media screen and (max-width: 550px) {
+.gal-container {
+	height: auto;
+}
+.slider {
+	padding-top: 80%;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 300px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.gal-container {
+	height: auto;
+}
+.slider {
+	padding-top: 100%;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 100%;
+}
+}

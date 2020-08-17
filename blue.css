@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo, .logo a, .contactus, .promo-text h2, .product-title h2 {
+	color:#00adef;
+}
+.promo-dash {
+	background-color:#00adef;
+}
+.tabs input[type="radio"]:checked + label {
+	background-image:url(../images/tab-active-blue.jpg);
+}
+
